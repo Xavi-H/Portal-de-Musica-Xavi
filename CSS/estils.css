@@ -1,3 +1,4 @@
+/*Estilos para toda la pagina*/
 * {
     font-family: sans-serif;
     color: white;
@@ -5,26 +6,36 @@
     margin: 0px;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Menu de navegacion centrado en la parte de la derecha de la parte superior*/
 .menu {
     display: flex;
     flex-direction: row;
-    align-content: flex-end;
     justify-content: flex-end;
-}
 
+}
+/*Alineacion del contenido del menu de navegación (los enlaces a otras paginas)*/
 .menu-item {
     margin: 0px 10px;
     list-style: none;
-    height: 50px;
-}
-
-a:hover{
-    color: orange;
+    align-content: center;
 }
 
 .titulo{
     display: flex;
-    padding-top: 40px;
-    padding: 0px;
-    border: 1px solid red;
+    padding: 10px;
 }
+
+/*Decoracion de los enlaces*/
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+
