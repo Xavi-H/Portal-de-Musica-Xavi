@@ -1,17 +1,30 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
     margin: 0px;
 }
 
 .menu {
     display: flex;
     flex-direction: row;
-    background-color: palegoldenrod;
-    height: 50px;
+    align-content: flex-end;
+    justify-content: flex-end;
 }
 
 .menu-item {
     margin: 0px 10px;
     list-style: none;
     height: 50px;
+}
+
+a:hover{
+    color: orange;
+}
+
+.titulo{
+    display: flex;
+    padding-top: 40px;
+    padding: 0px;
+    border: 1px solid red;
 }
