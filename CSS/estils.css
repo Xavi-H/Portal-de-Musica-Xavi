@@ -61,7 +61,7 @@ a:hover{
 }
 .gridLanzamientosRecientes {
     display: grid;
-    gap: 10px;
+    gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
@@ -76,15 +76,35 @@ a:hover{
     padding: 5px;
 }
 .lanzamiento3 {
-    grid-area: lanzamiento2;
+    grid-area: lanzamiento3;
     padding: 5px;
 }
 .lanzamiento4 {
-    grid-area: lanzamiento2;
+    grid-area: lanzamiento4;
     padding: 5px;
 }
 .lanzamiento5 {
-    grid-area: lanzamiento2;
+    grid-area: lanzamiento5;
+    padding: 5px;
+}
+.lanzamiento6 {
+    grid-area: lanzamiento6;
+    padding: 5px;
+}
+.lanzamiento7 {
+    grid-area: lanzamiento7;
+    padding: 5px;
+}
+.lanzamiento8 {
+    grid-area: lanzamiento8;
+    padding: 5px;
+}
+.lanzamiento9 {
+    grid-area: lanzamiento9;
+    padding: 5px;
+}
+.lanzamiento10 {
+    grid-area: lanzamiento10;
     padding: 5px;
 }
 #verde:hover{
