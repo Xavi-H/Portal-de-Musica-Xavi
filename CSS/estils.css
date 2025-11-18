@@ -30,6 +30,8 @@ header{
 .titulo{
     display: flex;
     padding: 5px;
+    /*Mantiene los espacios entre las palabras*/
+    white-space: pre;
 }
 
 /*Decoracion de los enlaces*/
@@ -46,15 +48,30 @@ a:hover{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         grid-template-areas:
-        "protagonista imagenProtagonista" 
+        "protagonista imagenProtagonista";
+     
 }
 .festivalProtagonista{
     grid-area: protagonista;
+    padding: 7px 30px;
 }
 .imagenProtagonista{
     grid-area: imagenProtagonista;
+    padding: 5px
 }
 footer {
 
+}
+#verde:hover{
+    color:orange;
+}
+#verde {
+    color: greenyellow;
+}
+#naranja:hover{
+    color: greenyellow;
+}
+#naranja {
+    color: orange;
 }
 
