@@ -59,8 +59,33 @@ a:hover{
     grid-area: imagenProtagonista;
     padding: 5px
 }
-footer {
-
+.gridLanzamientosRecientes {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "lanzamiento1 lanzamiento2 lanzamiento3 lanzamiento4 lanzamiento5";
+}
+.lanzamiento1 {
+    grid-area: lanzamiento1;
+    padding: 5px;
+}
+.lanzamiento2 {
+    grid-area: lanzamiento2;
+    padding: 5px;
+}
+.lanzamiento3 {
+    grid-area: lanzamiento2;
+    padding: 5px;
+}
+.lanzamiento4 {
+    grid-area: lanzamiento2;
+    padding: 5px;
+}
+.lanzamiento5 {
+    grid-area: lanzamiento2;
+    padding: 5px;
 }
 #verde:hover{
     color:orange;
