@@ -1,6 +1,7 @@
 /*Estilos para toda la pagina*/
 * {
     font-family: sans-serif;
+    font-size: 4px;
     color: white;
     background-color: black;
     margin: 0px;
@@ -21,21 +22,39 @@ header{
 }
 /*Alineacion del contenido del menu de navegación (los enlaces a otras paginas)*/
 .menu-item {
-    margin: 0px 10px;
+    margin: 0px 3px;
     list-style: none;
     align-content: center;
 }
 
 .titulo{
     display: flex;
-    padding: 10px;
+    padding: 5px;
 }
 
 /*Decoracion de los enlaces*/
 a{
+    font-size: 4px;
     text-decoration: none;
 }
 a:hover{
     color: orange;
+}
+.gridFestivalProtagonista {
+    display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "protagonista imagenProtagonista" 
+}
+.festivalProtagonista{
+    grid-area: protagonista;
+}
+.imagenProtagonista{
+    grid-area: imagenProtagonista;
+}
+footer {
+
 }
 
