@@ -68,14 +68,32 @@ a:hover{
 }
 
 .gridLanzamientosRecientes article {
-    background: rgb(30, 31, 30);
+    background-color: rgb(30, 31, 30);
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 30px;
     display: flex;  
     flex-direction: column;   
     justify-content: center;
     align-items: center; 
-    text-align: center; 
+    border: 4px solid rgba(172, 255, 47, 0.568);
+}
+
+.gridArtistasDestacados {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 20px 300px;
+}
+.gridArtistasDestacados article {
+    background-color: rgb(30, 31, 30);
+    padding: 15px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    border: 4px solid rgba(255, 166, 0, 0.623);
 }
 
 #verde:hover{
