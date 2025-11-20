@@ -2,8 +2,10 @@
 * {
     font-family: sans-serif;
     color: white;
-    background-color: black;
     margin: 0px;
+}
+body {
+    background-color: black;
 }
 
 header{
@@ -60,15 +62,20 @@ a:hover{
 .gridLanzamientosRecientes {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(5, 1fr); /* 5 columnas */
-    grid-auto-rows: auto;                  /* altura según contenido */
-    padding: 20px 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 5 columnas */
+    grid-template-rows: auto;
+    padding: 20px 100px;
 }
 
 .gridLanzamientosRecientes article {
-    background: rgb(63, 55, 48);   /* ejemplo */
+    background: rgb(30, 31, 30);
     padding: 15px;
-    border-radius: 12px;
+    border-radius: 10px;
+    display: flex;  
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
 }
 
 #verde:hover{
