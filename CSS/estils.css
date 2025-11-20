@@ -1,7 +1,6 @@
 /*Estilos para toda la pagina*/
 * {
     font-family: sans-serif;
-    font-size: 4px;
     color: white;
     background-color: black;
     margin: 0px;
@@ -22,7 +21,7 @@ header{
 }
 /*Alineacion del contenido del menu de navegación (los enlaces a otras paginas)*/
 .menu-item {
-    margin: 0px 3px;
+    margin: 0px 10px;
     list-style: none;
     align-content: center;
 }
@@ -36,7 +35,6 @@ header{
 
 /*Decoracion de los enlaces*/
 a{
-    font-size: 4px;
     text-decoration: none;
 }
 a:hover{
@@ -44,7 +42,7 @@ a:hover{
 }
 .gridFestivalProtagonista {
     display: grid;
-        gap: 10px;
+        gap: 20px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         grid-template-areas:
@@ -53,60 +51,26 @@ a:hover{
 }
 .festivalProtagonista{
     grid-area: protagonista;
-    padding: 7px 30px;
+    padding: 20px 80px;
 }
 .imagenProtagonista{
     grid-area: imagenProtagonista;
-    padding: 5px
+    padding: 20px 80px
 }
 .gridLanzamientosRecientes {
     display: grid;
     gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-    "lanzamiento1 lanzamiento2 lanzamiento3 lanzamiento4 lanzamiento5";
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas */
+    grid-auto-rows: auto;                  /* altura según contenido */
+    padding: 20px 50px;
 }
-.lanzamiento1 {
-    grid-area: lanzamiento1;
-    padding: 5px;
+
+.gridLanzamientosRecientes article {
+    background: rgb(63, 55, 48);   /* ejemplo */
+    padding: 15px;
+    border-radius: 12px;
 }
-.lanzamiento2 {
-    grid-area: lanzamiento2;
-    padding: 5px;
-}
-.lanzamiento3 {
-    grid-area: lanzamiento3;
-    padding: 5px;
-}
-.lanzamiento4 {
-    grid-area: lanzamiento4;
-    padding: 5px;
-}
-.lanzamiento5 {
-    grid-area: lanzamiento5;
-    padding: 5px;
-}
-.lanzamiento6 {
-    grid-area: lanzamiento6;
-    padding: 5px;
-}
-.lanzamiento7 {
-    grid-area: lanzamiento7;
-    padding: 5px;
-}
-.lanzamiento8 {
-    grid-area: lanzamiento8;
-    padding: 5px;
-}
-.lanzamiento9 {
-    grid-area: lanzamiento9;
-    padding: 5px;
-}
-.lanzamiento10 {
-    grid-area: lanzamiento10;
-    padding: 5px;
-}
+
 #verde:hover{
     color:orange;
 }
