@@ -1,47 +1,46 @@
-/*Estilos para toda la pagina*/
+/*Estils per tota la pagina*/
 * {
     font-family: sans-serif;
     color: white;
     margin: 0px;
 }
+/*Fons negre per tota la pagina. L'he posat aqui per que no afecti dins dels articles*/
 body {
     background-color: black;
 }
-
+/*Alinear la part superior de la pagina*/
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-/*Menu de navegacion centrado en la parte de la derecha de la parte superior*/
+/*Menu de navegació centrar a la dreta de la part superior*/
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 
 }
-/*Alineacion del contenido del menu de navegación (los enlaces a otras paginas)*/
+/*Estils de la llista del menu de navegació*/
 .menu-item {
     margin: 0px 10px;
     list-style: none;
     align-content: center;
 }
-
+/*Estils per als titols*/
 .titulo{
     display: flex;
     padding: 20px 30px;
-    /*Mantiene los espacios entre las palabras*/
-    white-space: pre;
+    white-space: pre; /*Mante els espais entre les paraules*/
 }
-
-/*Decoracion de los enlaces*/
+/*Decoració dels enllaços*/
 a{
     text-decoration: none;
 }
 a:hover{
     color: orange;
 }
+/*Graella per el festival protagonista*/
 .gridFestivalProtagonista {
     display: grid;
         gap: 20px;
@@ -49,7 +48,6 @@ a:hover{
         grid-template-rows: auto;
         grid-template-areas:
         "protagonista imagenProtagonista";
-     
 }
 .festivalProtagonista{
     grid-area: protagonista;
@@ -59,14 +57,15 @@ a:hover{
     grid-area: imagenProtagonista;
     padding: 20px 80px
 }
+/*Graella per els llençaments recents*/
 .gridLanzamientosRecientes {
     display: grid;
     gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 5 columnas */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     padding: 20px 100px;
 }
-
+/*Per els articles que estan dins de la seccio de llençaments recents*/
 .gridLanzamientosRecientes article {
     background-color: rgb(30, 31, 30);
     padding: 15px;
@@ -77,13 +76,14 @@ a:hover{
     align-items: center; 
     border: 4px solid rgba(172, 255, 47, 0.568);
 }
-
+/*Graella per als artistes destacats*/
 .gridArtistasDestacados {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     padding: 20px;
 }
+/*Per els articles que estan dins de la seccio de artistes destacats*/
 .gridArtistasDestacados article {
     background-color: rgb(30, 31, 30);
     padding: 15px;
@@ -95,13 +95,14 @@ a:hover{
     margin: 30px;
     border: 4px solid rgba(255, 166, 0, 0.623);
 }
-
+/*Graella per als festivals destacats*/
 .gridFestivalesDestacados {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     padding: 20px 10px;
 }
+/*Per els articles que estan dins de la seccio de festivals destacats*/
 .gridFestivalesDestacados article {
     background-color: rgb(30, 31, 30);
     padding: 15px;
@@ -114,19 +115,22 @@ a:hover{
     margin: 30px;
     border: 4px solid rgba(172, 255, 47, 0.568);
 }
+/*Estils de la llista d'albums escoltats*/
 .albumsEscoltats {
-    column-count: 2;
-    column-gap: 80px;       /* espacio entre columnas */
-    width: fit-content;     /* ajusta ancho al contenido */
+    column-count: 2; /*Dos columnes*/
+    column-gap: 80px;       /*Espai entre columnes*/
+    width: fit-content;     /*Ajusta la amplada al contingut */
     margin: auto;
     padding: 30px;
 }
+/*Graella per als festivals de musica*/
 .gridFestivalesMusica {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     padding: 20px 10px;
 }
+/*Per els articles que estan dins de la seccio de festivals de musica*/
 .gridFestivalesMusica article {
     background-color: rgb(30, 31, 30);
     padding: 15px;
@@ -139,7 +143,22 @@ a:hover{
     margin: 5px;
     border: 4px solid rgba(172, 255, 47, 0.568);
 }
+.gridCantoLoco {
+    display: flex;
+    align-items: center;   
+    gap: 30px;            
+    padding: 20px 100px;
+}
 
+.gridCantoLoco img {
+    width: 250px;        
+    border-radius: 12px;
+}
+
+.gridCantoLoco article {
+    max-width: 600px;    /*Tamany maxim del text*/
+}
+/*Efectes per als tituls cuan estiguin normals, y quan pasis el ratoli per sobre*/
 #verde:hover{
     color:orange;
 }
@@ -152,26 +171,26 @@ a:hover{
 #naranja {
     color: orange;
 }
+/*Per fer */
 aside {
     position: fixed;
-    top: 150px;           /* baja un poco para que no tape el header */
-    width: 200px;
+    top: 150px;            /*Deixa espai a dalt per no tapar el header*/
+    width: 200px;          /*Amplada que ocupa*/
     background: rgb(30, 31, 30);
     padding: 15px;
     border-radius: 12px;
     border: 3px solid orange;
 }
-/* Aside izquierdo */
+/*Aside esquerra (el primer)*/
 aside:first-of-type {
     left: 20px;
 }
 
-/* Aside derecho */
+/*Aside dret (l'ultim)*/
 aside:last-of-type {
     right: 20px;
 }
-
-/* Para que el contenido principal no quede tapado */
+/*Deixa marge al body, per a que els asides no tapin el contingut*/
 body {
     margin-left: 240px;
     margin-right: 240px;
