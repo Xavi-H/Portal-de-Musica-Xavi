@@ -31,16 +31,6 @@ La web presenta información sobre distintos **artistas y festivales musicales**
 
 El proyecto está compuesto por cuatro páginas principales:
 
-/proyecto
-│
-├── index.html
-├── festivales.html
-├── alta.html
-├── detalle.html
-└── css/
-└── styles.css
-
-
 ### 📄 Páginas
 
 #### 1️⃣ index.html
@@ -49,8 +39,6 @@ Contiene:
 - Presentación general
 - Listado de artistas destacados
 - Navegación hacia el resto de páginas
-
-Se utiliza **CSS Grid** para la estructura principal y **Flexbox** para organizar tarjetas o bloques de contenido.
 
 ---
 
@@ -61,10 +49,6 @@ Incluye:
 - Información resumida de cada evento
 - Diseño en formato de tarjetas
 
-Se emplea principalmente:
-- `display: grid` para la distribución general
-- `display: flex` para la alineación interna de las tarjetas
-
 ---
 
 #### 3️⃣ alta.html
@@ -72,8 +56,6 @@ Formulario para añadir nuevos artistas o festivales (simulado).
 Incluye:
 - Campos de entrada (`input`, `select`, `textarea`)
 - Botón de envío
-
-Se utiliza **Flexbox** para estructurar y alinear correctamente el formulario.
 
 ---
 
@@ -133,7 +115,6 @@ No requiere instalación adicional ni dependencias externas.
 - Hacer la web completamente responsive
 - Añadir validación real al formulario
 - Incorporar animaciones CSS
-- Mejorar accesibilidad (ARIA, contraste, etc.)
 - Añadir JavaScript para mayor interactividad
 
 ---
