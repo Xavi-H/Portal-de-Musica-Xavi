@@ -1,90 +1,89 @@
-# 🎵 Proyecto Web – Artistas y Festivales Musicales
+# 🎵 Projecte Web – Artistes i Festivals Musicals
 
-## 📌 Descripción
+## 📌 *Descripció
 
-Este proyecto consiste en una página web desarrollada en **HTML5 y CSS3** como práctica en clase para reforzar conceptos de maquetación y diseño web.  
+Aquest projecte consisteix en una pàgina web desenvolupada en **HTML5 i CSS3** com a pràctica en classe per a reforçar conceptes de maquetació i disseny web. 
 
-El enfoque principal del proyecto está en el uso de:
+L'enfocament principal del projecte està en l'ús de:
 
-- **CSS Grid** para la estructura general de las páginas.
-- **Flexbox (display: flex)** para la alineación y distribución de elementos internos.
-- Estilos básicos de CSS.
-- Estructuración semántica con HTML.
+- ***CSS *Grid** per a l'estructura general de les pàgines.
+- ***Flexbox (display: *flex)** per a l'alineació i distribució d'elements interns.
+- Estils bàsics de *CSS.
+- Estructuració semàntica amb HTML.
 
-La web presenta información sobre distintos **artistas y festivales musicales**, permitiendo la navegación entre varias páginas conectadas entre sí.
+La web presenta informació sobre distints **artistes i festivals musicals**, permetent la navegació entre diverses pàgines connectades entre si.
 
 ---
-
-## 🛠 Tecnologías utilizadas
+## 🛠 Tecnologies utilitzades
 
 - **HTML5**
 - **CSS3**
-  - `display: grid`
-  - `display: flex`
-  - Selectores básicos
-  - Pseudo-clases
-  - Diseño responsive básico (si aplica)
+ - `display: *grid`
+ - `display: *flex`
+ - Selectors bàsics
+ - Pseudo-classes
+ - Disseny *responsive bàsic (si aplica)
 
 ---
 
-## 📂 Estructura del proyecto
+## 📂 Estructura del projecte
 
-El proyecto está compuesto por cuatro páginas principales:
+El projecte està compost per quatre pàgines principals:
 
-### 📄 Páginas
+### 📄 Pàgines
 
-#### 1️⃣ index.html
-Página principal del sitio.  
-Contiene:
-- Presentación general
-- Listado de artistas destacados
-- Navegación hacia el resto de páginas
-
----
-
-#### 2️⃣ festivales.html
-Página dedicada a los festivales musicales.  
-Incluye:
-- Listado de festivales
-- Información resumida de cada evento
-- Diseño en formato de tarjetas
+#### 1️⃣ *index.HTML
+Pàgina principal del lloc. 
+Conté:
+- Presentació general
+- Llistat d'artistes destacats
+- Navegació cap a la resta de pàgines
 
 ---
 
-#### 3️⃣ alta.html
-Formulario para añadir nuevos artistas o festivales (simulado).  
-Incluye:
-- Campos de entrada (`input`, `select`, `textarea`)
-- Botón de envío
+#### 2️⃣ festivales.HTML
+Pàgina dedicada als festivals musicals. 
+Inclou:
+- Llistat de festivals
+- Informació resumida de cada esdeveniment
+- Disseny en format de targetes
 
 ---
 
-#### 4️⃣ detalle.html
-Página de detalle individual de un artista o festival.  
-Incluye:
-- Imagen destacada
-- Información ampliada
-- Estructura organizada mediante Grid y Flex
+#### 3️⃣ alta.HTML
+Formulari per a afegir nous artistes o festivals (simulat). 
+Inclou:
+- Campos d'entrada (`input`, `*select`, `*textarea`)
+- Botó d'enviament
 
 ---
 
-## 🎯 Objetivos de aprendizaje
-
-Este proyecto tiene como finalidad:
-
-- Comprender la diferencia entre **Flexbox y Grid**
-- Aplicar correctamente `display: flex` para:
-  - Alinear elementos horizontal y verticalmente
-  - Distribuir espacio entre componentes
-- Utilizar `display: grid` para:
-  - Crear layouts complejos
-  - Organizar secciones principales
-- Mejorar la estructura semántica con HTML
-- Aplicar buenas prácticas básicas de organización de archivos
+#### 4️⃣ detalle.HTML
+Pàgina de detall individual d'un artista o festival. 
+Inclou:
+- Imatge destacada
+- Informació ampliada
+- Estructura organitzada mitjançant *Grid i *Flex
 
 ---
 
-## 🧩 Conceptos trabajados
+## 🎯 Objectius d'aprenentatge
+
+Aquest projecte té com a finalitat:
+
+- Comprendre la diferència entre ***Flexbox i *Grid**
+- Aplicar correctament `display: *flex` per a:
+ - Alinear elements horitzontal i verticalment
+ - Distribuir espai entre components
+- Utilitzar `display: *grid` per a:
+ - Crear *layouts complexos
+ - Organitzar seccions principals
+- Millorar l'estructura semàntica amb HTML
+- Aplicar bones pràctiques bàsiques d'organització d'arxius
+
+---
+
+## 🧩 Conceptes treballats
 
 ### 🔹 CSS Grid
 - `grid-template-columns`
@@ -100,33 +99,32 @@ Este proyecto tiene como finalidad:
 
 ---
 
-## 🚀 Cómo visualizar el proyecto
+## 🚀 Com visualitzar el projecte
 
-1. Descargar o clonar el repositorio.
-2. Abrir el archivo `index.html` en cualquier navegador web.
-3. Navegar entre las diferentes páginas mediante el menú de navegación.
+1. Descarregar o clonar el repositori.
+2. Obrir l'arxiu `*index.HTML` en qualsevol navegador web.
+3. Navegar entre les diferents pàgines mitjançant el menú de navegació.
 
-No requiere instalación adicional ni dependencias externas.
-
----
-
-## 📈 Posibles mejoras futuras
-
-- Hacer la web completamente responsive
-- Añadir validación real al formulario
-- Incorporar animaciones CSS
-- Añadir JavaScript para mayor interactividad
+No requereix instal·lació addicional ni dependències externes.
 
 ---
 
-## 👨‍🎓 Contexto académico
+## 📈 Possibles millores futures
 
-Proyecto realizado como práctica académica para reforzar los conceptos fundamentales de maquetación web con **HTML y CSS**, especialmente enfocado en **CSS Grid y Flexbox**.
+- Fer la web completament *responsive
+- Afegir validació real al formulari
+- Incorporar animacions *CSS
+- Afegir JavaScript per a major interactivitat
+
+---
+
+## 👨‍🎓 Context acadèmic
+
+Projecte realitzat com a pràctica acadèmica per a reforçar els conceptes fonamentals de maquetació web amb **HTML i *CSS**, especialment enfocat en ***CSS *Grid i *Flexbox**.
 
 ## 👨‍🎓 Autor
 
-**Nom:** Xavi Hurtado Picón
-**Curs:** 1er Desenvolupament d'aplicacions web
-**Any:** 2025
-
+***Nom:** Xavi Hurtado *Picón
+***Curs:** 1r *Desenvolupament d'*aplicacions web
+***Any:** 2025
 
