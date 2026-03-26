@@ -1,34 +1,23 @@
+<?php
+    require_once './includes/nav.php';
+    require_once './includes/head.php';
+    require_once './includes/article.php';
+    require_once './includes/footer.php';
+    require_once './includes/header.php';
+?>
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/estils.css">
-    <title>Detalles</title>
-</head>
+<?php head("Detalles"); ?>
 
 <body>
-        <!--Titol y menu de navegació-->
-    <header>
-        <h2 class="titulo">
-            <span id="verde">Detalles</span>
-        </h2>
-        <nav>
-            <ul class="menu">
-                <li class="menu-item"><a href="index.html" target="_blank">Home</a></li>
-                <li class="menu-item"><a href="festivales.html" target="_blank">Festivales</a></li>
-                <li class="menu-item"><a href="detalle.html">Detalles</a></li>
-                <li class="menu-item"><a href="alta.html" target="_blank">Darse de Alta</a></li>
-            </ul>
-        </nav>
-    </header>
-    <hr>
+    <!--Titol y menu de navegació-->
+    <?php mostrarHeader("verde", "Detalles") ?>
+    <hr> 
     <br>
     <main>
         <section class="gridCantoLoco">
             <h2>El Canto del Loco</h2>
-            <img alt="Imagen grupo" src="Imagenes/El_canto_del_loco.jpg">
+            <img alt="Imagen grupo" src="./assets/img/El_canto_del_loco.jpg">
             <article>
                 <h3>Información General</h3>
                 <p><strong>Periodo de Actividad:</strong>1994-2010</p>
@@ -59,10 +48,7 @@
     </main>
     <br>
     <hr>
-    <footer>
-        <p>Sígueme en: <a href="https://www.linkedin.com/in/xavi-hurtado-pic%C3%B3n-627083305/" target="_blank">Linkedin</a> · <a href="https://github.com/Xavi-H" target="_blank">Github</a></p>
-        <p>&copy; 2025 Portal de Música de Xavi</p>
-    </footer>
+    <?php mostrarFooter() ?>
 </body>
 
 </html>
