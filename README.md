@@ -2,12 +2,13 @@
 
 ## 📌 *Descripció
 
-Aquest projecte consisteix en una pàgina web desenvolupada en **HTML5 i CSS3** com a pràctica en classe per a reforçar conceptes de maquetació i disseny web. 
+Aquest projecte consisteix en una pàgina web desenvolupada en **PHP, HTML5 i CSS3** com a pràctica en classe per a reforçar conceptes de maquetació i disseny web. 
 
 L'enfocament principal del projecte està en l'ús de:
 
-- ***CSS *Grid** per a l'estructura general de les pàgines.
-- ***Flexbox (display: *flex)** per a l'alineació i distribució d'elements interns.
+- *PHP* per reutilitzar codi.
+- *CSS *Grid** per a l'estructura general de les pàgines.
+- *Flexbox (display: *flex)** per a l'alineació i distribució d'elements interns.
 - Estils bàsics de *CSS.
 - Estructuració semàntica amb HTML.
 
@@ -16,6 +17,7 @@ La web presenta informació sobre distints **artistes i festivals musicals**, pe
 ---
 ## 🛠 Tecnologies utilitzades
 
+- **PHP**
 - **HTML5**
 - **CSS3**
  - `display: *grid`
@@ -32,7 +34,7 @@ El projecte està compost per quatre pàgines principals:
 
 ### 📄 Pàgines
 
-#### 1️⃣ *index.HTML
+#### 1️⃣ *index.php
 Pàgina principal del lloc. 
 Conté:
 - Presentació general
@@ -41,7 +43,7 @@ Conté:
 
 ---
 
-#### 2️⃣ festivales.HTML
+#### 2️⃣ festivales.php
 Pàgina dedicada als festivals musicals. 
 Inclou:
 - Llistat de festivals
@@ -50,7 +52,7 @@ Inclou:
 
 ---
 
-#### 3️⃣ alta.HTML
+#### 3️⃣ alta.php
 Formulari per a afegir nous artistes o festivals (simulat). 
 Inclou:
 - Campos d'entrada (`input`, `*select`, `*textarea`)
@@ -58,7 +60,7 @@ Inclou:
 
 ---
 
-#### 4️⃣ detalle.HTML
+#### 4️⃣ detalle.php
 Pàgina de detall individual d'un artista o festival. 
 Inclou:
 - Imatge destacada
@@ -102,7 +104,7 @@ Aquest projecte té com a finalitat:
 ## 🚀 Com visualitzar el projecte
 
 1. Descarregar o clonar el repositori.
-2. Obrir l'arxiu `*index.HTML` en qualsevol navegador web.
+2. Obrir l'arxiu `*index.php` en qualsevol navegador web.
 3. Navegar entre les diferents pàgines mitjançant el menú de navegació.
 
 No requereix instal·lació addicional ni dependències externes.
@@ -111,9 +113,9 @@ No requereix instal·lació addicional ni dependències externes.
 
 ## 📈 Possibles millores futures
 
-- Fer la web completament *responsive
+- Fer la web completament responsive
 - Afegir validació real al formulari
-- Incorporar animacions *CSS
+- Incorporar animacions CSS
 - Afegir JavaScript per a major interactivitat
 
 ---
@@ -124,7 +126,7 @@ Projecte realitzat com a pràctica acadèmica per a reforçar els conceptes fona
 
 ## 👨‍🎓 Autor
 
-***Nom:** Xavi Hurtado *Picón
-***Curs:** 1r *Desenvolupament d'*aplicacions web
-***Any:** 2025
+- **Nom:** Xavi Hurtado *Picón
+- **Curs:** 1r *Desenvolupament d'*aplicacions web
+- **Any:** 2025-2026
 
