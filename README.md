@@ -1,6 +1,6 @@
 # 🎵 Projecte Web – Artistes i Festivals Musicals
 
-## 📌 *Descripció
+## 📌 Descripció
 
 Aquest projecte consisteix en una pàgina web desenvolupada en **PHP, HTML5 i CSS3** com a pràctica en classe per a reforçar conceptes de maquetació i disseny web. 
 
@@ -9,7 +9,7 @@ L'enfocament principal del projecte està en l'ús de:
 - *PHP* per reutilitzar codi.
 - *CSS *Grid** per a l'estructura general de les pàgines.
 - *Flexbox (display: *flex)** per a l'alineació i distribució d'elements interns.
-- Estils bàsics de *CSS.
+- Estils bàsics de CSS.
 - Estructuració semàntica amb HTML.
 
 La web presenta informació sobre distints **artistes i festivals musicals**, permetent la navegació entre diverses pàgines connectades entre si.
@@ -20,11 +20,11 @@ La web presenta informació sobre distints **artistes i festivals musicals**, pe
 - **PHP**
 - **HTML5**
 - **CSS3**
- - `display: *grid`
- - `display: *flex`
+ - `display: grid`
+ - `display: flex`
  - Selectors bàsics
  - Pseudo-classes
- - Disseny *responsive bàsic (si aplica)
+ - Disseny responsive bàsic (si aplica)
 
 ---
 
@@ -34,7 +34,7 @@ El projecte està compost per quatre pàgines principals:
 
 ### 📄 Pàgines
 
-#### 1️⃣ *index.php
+#### 1️⃣ index.php
 Pàgina principal del lloc. 
 Conté:
 - Presentació general
@@ -55,7 +55,7 @@ Inclou:
 #### 3️⃣ alta.php
 Formulari per a afegir nous artistes o festivals (simulat). 
 Inclou:
-- Campos d'entrada (`input`, `*select`, `*textarea`)
+- Campos d'entrada (`input`, `select`, `textarea`)
 - Botó d'enviament
 
 ---
@@ -65,7 +65,7 @@ Pàgina de detall individual d'un artista o festival.
 Inclou:
 - Imatge destacada
 - Informació ampliada
-- Estructura organitzada mitjançant *Grid i *Flex
+- Estructura organitzada mitjançant Grid i Flex
 
 ---
 
@@ -73,12 +73,12 @@ Inclou:
 
 Aquest projecte té com a finalitat:
 
-- Comprendre la diferència entre ***Flexbox i *Grid**
-- Aplicar correctament `display: *flex` per a:
+- Comprendre la diferència entre *Flexbox i *Grid**
+- Aplicar correctament `display: flex` per a:
  - Alinear elements horitzontal i verticalment
  - Distribuir espai entre components
-- Utilitzar `display: *grid` per a:
- - Crear *layouts complexos
+- Utilitzar `display: grid` per a:
+ - Crear layouts complexos
  - Organitzar seccions principals
 - Millorar l'estructura semàntica amb HTML
 - Aplicar bones pràctiques bàsiques d'organització d'arxius
@@ -104,7 +104,7 @@ Aquest projecte té com a finalitat:
 ## 🚀 Com visualitzar el projecte
 
 1. Descarregar o clonar el repositori.
-2. Obrir l'arxiu `*index.php` en qualsevol navegador web.
+2. Obrir l'arxiu `index.php` en qualsevol navegador web.
 3. Navegar entre les diferents pàgines mitjançant el menú de navegació.
 
 No requereix instal·lació addicional ni dependències externes.
@@ -122,11 +122,11 @@ No requereix instal·lació addicional ni dependències externes.
 
 ## 👨‍🎓 Context acadèmic
 
-Projecte realitzat com a pràctica acadèmica per a reforçar els conceptes fonamentals de maquetació web amb **HTML i *CSS**, especialment enfocat en ***CSS *Grid i *Flexbox**.
+Projecte realitzat com a pràctica acadèmica per a reforçar els conceptes fonamentals de maquetació web amb **PHP, HTML i CSS**, especialment enfocat en CSS *Grid i *Flexbox**.
 
 ## 👨‍🎓 Autor
 
-- **Nom:** Xavi Hurtado *Picón
-- **Curs:** 1r *Desenvolupament d'*aplicacions web
+- **Nom:** Xavi Hurtado Picón
+- **Curs:** 1r Desenvolupament d'aplicacions web
 - **Any:** 2025-2026
 
